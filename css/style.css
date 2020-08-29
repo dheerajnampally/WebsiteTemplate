@@ -1,12 +1,14 @@
 
  
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-  body {
+
+body {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
     background: #f9f9f9;
-  }
+}
 
 
 
@@ -58,7 +60,7 @@
   }
 
   a:hover, a:active, a:focus {
-    color: #29ca8e;
+    color: #337ab7;
     outline: none;
   }
 
@@ -220,7 +222,7 @@
   }
 
   .custom-navbar .navbar-brand {
-    color: #ffffff;
+/*    color: #ffffff;*/
     font-size: 25px;
     font-weight: 500;
     letter-spacing: -1px;
@@ -234,18 +236,20 @@
     margin-left: 6em;
   }
 
-  .custom-navbar .nav li a {
+.custom-navbar .nav li a {
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: normal;
-    color: #f0f0f0;
+    color: #343E48;
     padding-right: 22px;
     padding-left: 22px;
-  }
+  
+}
 
-  .custom-navbar .nav li a:hover {
-    background: transparent;
-    color: #29ca8e;
-  }
+    .custom-navbar .nav li a:hover {
+        background: transparent;
+        color: #337ab7;
+    }
 
   .custom-navbar .navbar-nav > li > a:hover,
   .custom-navbar .navbar-nav > li > a:focus {
@@ -266,15 +270,16 @@
     background-color: transparent;
   }
 
-  .custom-navbar .navbar-toggle .icon-bar {
-    background: #29ca8e;
-    border-color: transparent;
-  }
+    .custom-navbar .navbar-toggle .icon-bar {
+        background: #337ab7;
+        border-color: transparent;
+    }
 
   @media(min-width:768px) {
     .custom-navbar {
-      border-bottom: 0;
-      background: 0 0; 
+        border-bottom: 0;
+        /*      background: 0 0; */
+        background: #ffffff;
     }
 
     .custom-navbar.top-nav-collapse {
@@ -368,20 +373,20 @@
     margin-right: 35px;
   }
 
-  #feature .nav-tabs>li.active>a, 
-  #feature .nav-tabs>li.active>a:focus, 
-  #feature .nav-tabs>li.active>a:hover {
-    background: transparent;
-    color: #202020;
-    border-bottom: 3px solid #29ca8e;
-  }
+    #feature .nav-tabs > li.active > a,
+    #feature .nav-tabs > li.active > a:focus,
+    #feature .nav-tabs > li.active > a:hover {
+        background: transparent;
+        color: #202020;
+        border-bottom: 3px solid #337ab7;
+    }
 
-  #feature .nav>li>a:focus, 
-  #feature .nav>li>a:hover {
-    background: transparent;
-    border-bottom: 3px solid #29ca8e;
-    color: #202020;
-  }
+    #feature .nav > li > a:focus,
+    #feature .nav > li > a:hover {
+        background: transparent;
+        border-bottom: 3px solid #337ab7;
+        color: #202020;
+    }
 
   #feature .tab-content {
     margin-top: 50px;
