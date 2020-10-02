@@ -89,7 +89,7 @@ body {
 
   #contact,
   footer {
-    background: #ffffff;
+/*    background: #ffffff;*/
     text-align: center;
   }
 
@@ -549,7 +549,7 @@ body {
 
 
   /*---------------------------------------
-      PRICING             
+      ROLES            
   -----------------------------------------*/
 
   #about .section-title,
